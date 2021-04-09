@@ -1,0 +1,7 @@
+a = list(map(int,input("enter the number list").strip().split()))
+b = []
+print( "\ninput list:",a)
+for i in a:
+    if i>0:
+        b.append(i)
+print("\noutput list:",b)
